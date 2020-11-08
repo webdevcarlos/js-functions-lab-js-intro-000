@@ -6,12 +6,12 @@ happyHolidays();
 function happyHolidays(name){
   console.log(`Happy holidays, ${name}!`);
 }
-happyHolidaysTo ("Carlos");
+happyHolidaysTo('Carlos');
 function happyCustomHolidayTo(holiday,name){
   console.log(`Happy ${holiday}, ${name}!`);
 }
-happyCustomHolidayTo ("Halloween","Carlos");
+happyCustomHolidayTo('Halloween','Carlos');
 function holidayCountdown(holiday,days){
   console.log (`It's ${days} days until ${holiday}!`);
 }
-holidayCountdown ("Halloween",2);
+holidayCountdown('Halloween',20);
