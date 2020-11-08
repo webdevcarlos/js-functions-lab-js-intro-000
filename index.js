@@ -1,17 +1,17 @@
 // write your code below!
 function happyHolidays(){
-  console.log('Happy holidays!');
+  return 'Happy holidays!';
 }
 happyHolidays();
 function happyHolidays(name){
-  console.log(`Happy holidays, ${name}!`);
+  return `Happy holidays, ${name}!`;
 }
 happyHolidaysTo('Carlos');
 function happyCustomHolidayTo(holiday,name){
-  console.log(`Happy ${holiday}, ${name}!`);
+  return `Happy ${holiday}, ${name}!`;
 }
 happyCustomHolidayTo('Halloween','Carlos');
 function holidayCountdown(holiday,days){
-  console.log (`It's ${days} days until ${holiday}!`);
+  return`It's ${days} days until ${holiday}!`;
 }
 holidayCountdown('Halloween',20);
